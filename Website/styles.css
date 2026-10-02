@@ -137,11 +137,17 @@ nav {
 /* CARD IMAGES */
 
 .card-image {
-    height: 330px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+.cardphotos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -156,6 +162,10 @@ nav {
     letter-spacing: 2px;
     margin-bottom: 8px;
     color: #777;
+}
+
+.carphotos{
+    width: 50px;
 }
 
 .card-content h3 {
