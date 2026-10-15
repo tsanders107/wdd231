@@ -12,10 +12,17 @@
     --dark-gray: #777;
 }
 
+@font-face{
+    font-family: "myfonts";
+    src: url("fonts/capture_it/Capture\ it.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #E6DBDB;
     color: black;
+    font-family: "myfonts"
 }
 
 /* NAVIGATION */
@@ -70,9 +77,11 @@ nav {
 }
 
 .hero h1 {
+    font-family: "myfonts";
+    src: url("fonts/capture_it/Capture\ it.ttf") format("truetype");
     font-size: clamp(3.3rem, 8vw, 6.5rem);
     line-height: 0.9;
-    letter-spacing: -6px;
+    letter-spacing: 0px;
     margin-bottom: 35px;
 }
 
