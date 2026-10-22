@@ -83,7 +83,7 @@ nav {
     /* src: url("fonts/capture_it/Capture\ it.ttf") format("truetype"); */
     font-size: clamp(3.3rem, 8vw, 6.5rem);
     line-height: 0.95;
-    letter-spacing: 30px;
+    /* letter-spacing: 5px; */
     margin-bottom: 35px;
 }
 

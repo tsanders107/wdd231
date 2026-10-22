@@ -106,3 +106,15 @@ cards.forEach(function(card) {
 });
 
 
+// brandfetch api thing
+const url = 'https://api.brandfetch.io/v2/brands/domain/apple.com';
+
+const response = await fetch(url, {
+  method: 'GET', 
+  headers: { 
+    Authorization: 'Bearer BRANDFETCH_SECRET_API_KEY' 
+  }
+});
+const data = await response.json();
+console.log(data);
+

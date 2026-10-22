@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>First Learning Contract - Package Design Gallery</title>
+    <link rel="stylesheet" href="stylesbf2.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">PACKAGE DESIGNS</a>
+
+            <nav class="nav-bar">
+                <!-- <li><a href="#gallery">Gallery</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#about">Comparing <Label>Logos</Label></a></li>
+            </nav>
+        </nav>
+
+        <div class="hero">
+            <p class="smallh1">PACKAGE DESIGN ARCHIVE</p>
+
+            <h1>Designs<br>
+                <span>Explained.</span>
+            </h1>
+
+            <p class="hero-paragraph">
+                Explore packaging from everyday products and discover
+                how color, typography, shape, and layout make designs work.
+            </p>
+
+            <a href="#gallery" class="hero-button">Explore Now ↓</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Main gallery -->
+        <section id="gallery" class="main-section">
+
+            <div class="section-heading">
+                <div class="gallery-controls">
+                    <label for="category-filter">Filter:</label>
+
+                    <select id="category-filter">
+                        <option value="all">All Designs</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="eyebrow">THE COLLECTION</p>
+                    <h2>Packaging worth looking at.</h2>
+                </div>
+            </div>
+
+            <div class="brand-search-panel">
+                <div>
+                    <p class="eyebrow">ADD TO THE COLLECTION</p>
+                    <h3>Load another brand.</h3>
+                    <p class="search-help">Search Brandfetch for a company, then add its logo as a new card.</p>
+                </div>
+                <form id="brand-search-form" class="brand-search-form">
+                    <label class="sr-only" for="brand-search-input">Search for a brand</label>
+                    <input id="brand-search-input" type="search" placeholder="Try Nike, Spotify, or Lego" autocomplete="off">
+                    <button type="submit">Search</button>
+                </form>
+                <div id="brand-search-status" class="brand-search-status" role="status" aria-live="polite"></div>
+                <div id="brand-search-results" class="brand-search-results"></div>
+            </div>
+
+
+
+            <!-- photo cards -->
+            <div>
+                <div class="main-grid" id="card-container">
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- about -->
+        <section id="about" class="about-section">
+            <p class="eyebrow">WHY IS PACKAGING IS SO IMPORTANT?</p>
+
+            <h2>
+                The design behind<br>
+                the product.
+            </h2>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <a href="#" class="logo">PACKAGE DESIGNS.</a>
+        <p>Made by Taylor Sanders.</p>
+    </footer>
+
+
+    <script src="scriptbf2.js"></script>
+
+</body>
+</html>
