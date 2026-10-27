@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trail Finder | All trails</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="js/list.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <a class="wordmark" href="index.html">Trail Finder</a>
+      <div class="menu">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          data-disclosure="menu"
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="site-navigation" aria-label="Main" hidden>
+          <a href="index.html" aria-current="page">All trails</a>
+          <a href="trail.html?id=fairy-falls">Featured: Fairy Falls</a>
+          <a href="trail.html">Broken link demo</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      <h1>Choose a trail</h1>
+      <p id="list-status" aria-live="polite">Loading trails…</p>
+      <ul class="card-list" id="trail-list"></ul>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "fairy-falls",
+    "name": "Fairy Falls",
+    "area": "Midway Geyser Basin",
+    "distanceMiles": 5.4,
+    "elevationGainFeet": 170,
+    "difficulty": "Easy",
+    "description": "Walk through lodgepole pine forest to a tall waterfall near the Grand Prismatic Spring overlook."
+  },
+  {
+    "id": "mystic-falls",
+    "name": "Mystic Falls",
+    "area": "Biscuit Basin",
+    "distanceMiles": 2.4,
+    "elevationGainFeet": 700,
+    "difficulty": "Moderate",
+    "description": "Follow the Little Firehole River to a waterfall, with an optional climb to an overlook above the basin."
+  },
+  {
+    "id": "lonestar-geyser",
+    "name": "Lone Star Geyser",
+    "area": "Old Faithful area",
+    "distanceMiles": 4.8,
+    "elevationGainFeet": 120,
+    "difficulty": "Easy",
+    "description": "A mostly level route follows the Firehole River to a geyser in a quiet forest clearing."
+  },
+  {
+    "id": "avalanche-peak",
+    "name": "Avalanche Peak",
+    "area": "Sylvan Pass",
+    "distanceMiles": 4.2,
+    "elevationGainFeet": 2100,
+    "difficulty": "Strenuous",
+    "description": "A steep climb above the tree line rewards hikers with broad views of Yellowstone's eastern ranges."
+  },
+  {
+    "id": "taggart-lake",
+    "name": "Taggart Lake",
+    "area": "Grand Teton National Park",
+    "distanceMiles": 3.0,
+    "elevationGainFeet": 350,
+    "difficulty": "Moderate",
+    "description": "A forest-and-meadow loop reaches a clear lake beneath the dramatic Teton front."
+  },
+  {
+    "id": "delta-lake",
+    "name": "Delta Lake",
+    "area": "Grand Teton National Park",
+    "distanceMiles": 7.4,
+    "elevationGainFeet": 2300,
+    "difficulty": "Strenuous",
+    "description": "A demanding route climbs to a vivid alpine lake; the final section is steep and unmaintained."
+  }
+]

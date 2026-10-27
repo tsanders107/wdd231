@@ -1,0 +1,17 @@
+{
+  "name": "trail-finder-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "test": "vp test",
+    "preview": "vp preview"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.4.0",
+    "vitest": "5.0.5"
+  },
+  "devDependencies": {
+    "vite-plus": "^1.4.0"
+  }
+}
