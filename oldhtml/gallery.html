@@ -1,58 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <title>First Learning Contract - Package Design Gallery</title>
-    <link rel="stylesheet" href="stylesbf.css">
+    <title>Package Design Gallery</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
+    <header class="gallery-header">
         <nav>
-            <a href="#" class="logo">PACKAGE DESIGNS</a>
-
-            <nav class="nav-bar">
-                <!-- <li><a href="#gallery">Gallery</a></li> -->
+            <a href="index.html" class="logo">PACKAGE DESIGNS</a>
+            <nav class="nav-bar" aria-label="Main navigation">
+                <li><a href="index.html#brand-types">Choose a category</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#about">Comparing <Label>Logos</Label></a></li>
             </nav>
         </nav>
 
-        <div class="hero">
-            <p class="smallh1">PACKAGE DESIGN ARCHIVE</p>
-
-            <h1>Designs<br>
-                <span>Explained.</span>
-            </h1>
-
-            <p class="hero-paragraph">
-                Explore packaging from everyday products and discover
-                how color, typography, shape, and layout make designs work.
-            </p>
-
-            <a href="#gallery" class="hero-button">Explore Now ↓</a>
+        <div class="gallery-hero">
+            <p class="smallh1">THE COLLECTION</p>
+            <h1>Packaging worth<br><span>looking at.</span></h1>
+            <p class="hero-paragraph">Browse brand identities and discover how their color, typography, shape, and layout make each design work.</p>
         </div>
     </header>
 
     <main>
-
-        <!-- Main gallery -->
         <section id="gallery" class="main-section">
-
             <div class="section-heading">
                 <div class="gallery-controls">
                     <label for="category-filter">Filter:</label>
-
                     <select id="category-filter">
                         <option value="all">All Designs</option>
                     </select>
                 </div>
                 <div>
-                    <p class="eyebrow">THE COLLECTION</p>
-                    <h2>Packaging worth looking at.</h2>
+                    <p class="eyebrow">YOUR SELECTION</p>
+                    <h2 id="selected-category-title">All designs.</h2>
                 </div>
             </div>
 
@@ -71,37 +54,30 @@
                 <div id="brand-search-results" class="brand-search-results"></div>
             </div>
 
+            <div class="main-grid" id="card-container"></div>
+            <p id="empty-category-message" class="empty-category-message" hidden>No cards are available for this category yet. Try another category or search for a brand above.</p>
+        </section>
 
+        <section id="about" class="about-section">
+            <p class="eyebrow">WHY IS PACKAGING SO IMPORTANT?</p>
+            <h2>The design behind<br>the product.</h2>
+        </section>
 
-            <!-- photo cards -->
-            <div>
-                <div class="main-grid" id="card-container">
-
+        <div id="details-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-content">
+                <button id="modal-close" class="close-modal" type="button" aria-label="Close brand details">×</button>
+                <div id="modal-body">
+                    <h2 id="modal-title">Brand details</h2>
                 </div>
             </div>
-        </section>
-
-
-        <!-- about -->
-        <section id="about" class="about-section">
-            <p class="eyebrow">WHY IS PACKAGING IS SO IMPORTANT?</p>
-
-            <h2>
-                The design behind<br>
-                the product.
-            </h2>
-        </section>
-
+        </div>
     </main>
 
-
     <footer>
-        <a href="#" class="logo">PACKAGE DESIGNS.</a>
+        <a href="index.html" class="logo">PACKAGE DESIGNS.</a>
         <p>Made by Taylor Sanders.</p>
     </footer>
 
-
-    <script src="scriptbf.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>

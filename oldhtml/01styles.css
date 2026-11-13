@@ -140,120 +140,6 @@ nav {
     font-size: 0.85rem;
 }
 
-/* BRANDFETCH SEARCH */
-.brand-search-panel {
-    display: grid;
-    gap: 18px;
-    margin-bottom: 55px;
-    padding: 28px;
-    background: #f7f3f3;
-    border: 1px solid #e5dddd;
-    border-radius: 12px;
-}
-
-.brand-search-panel h3 {
-    font-family: Arial;
-    font-size: 1.5rem;
-    margin: 5px 0 8px;
-}
-
-.search-help {
-    font-family: Arial;
-    color: #555;
-    font-size: 0.9rem;
-}
-
-.brand-search-form {
-    display: flex;
-    gap: 10px;
-    max-width: 650px;
-}
-
-.brand-search-form input {
-    flex: 1;
-    min-width: 0;
-    border: 1px solid #cfc6c6;
-    border-radius: 8px;
-    padding: 13px 14px;
-    font: 0.95rem Arial, sans-serif;
-    background: white;
-}
-
-.brand-search-form button,
-.add-brand-button {
-    border: 0;
-    border-radius: 8px;
-    padding: 13px 18px;
-    background: #181818;
-    color: white;
-    cursor: pointer;
-    font: 0.9rem Arial, sans-serif;
-}
-
-.brand-search-form button:hover,
-.add-brand-button:hover {
-    background: #ca00d8;
-}
-
-.brand-search-status {
-    color: #777;
-    font: 0.85rem Arial, sans-serif;
-}
-
-.brand-search-results {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 12px;
-}
-
-.brand-result {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px;
-    background: white;
-    border: 1px solid #e1dada;
-    border-radius: 8px;
-}
-
-.brand-result img {
-    width: 48px;
-    height: 48px;
-    padding: 7px;
-    object-fit: contain;
-    border: 1px solid #eee;
-    border-radius: 7px;
-}
-
-.brand-result-info {
-    flex: 1;
-    min-width: 0;
-}
-
-.brand-result-info strong,
-.brand-result-info span {
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-family: Arial, sans-serif;
-}
-
-.brand-result-info strong { margin-bottom: 4px; }
-.brand-result-info span { color: #777; font-size: 0.75rem; }
-
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
-
 /* card grid view */
 
 .main-grid {
@@ -377,13 +263,6 @@ footer p {
     font-family: Arial;
     color: #777;
     font-size: 0.8rem;
-}
-
-@media (max-width: 700px) {
-    .section-heading { display: block; }
-    .gallery-controls { margin-bottom: 25px; }
-    .brand-search-form { flex-direction: column; }
-    .brand-search-form button { width: 100%; }
 }
 
 /* MODAL */

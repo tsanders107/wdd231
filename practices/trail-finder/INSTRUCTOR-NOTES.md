@@ -18,12 +18,34 @@ Work in pairs. Write answers in your own words; do not run anything until
 question 7.
 
 1. There are 4 javascript files and 2 html files. Describe the role of each .js file...what is each responsible for? Map out the flow through the code. What function gets called first when the index page loads? List all the functions that get called for index. Do the same for the trails.html page.
+
 2. Click a card on the list page. Which line of code builds the link? What
-   does the address bar look like afterwards?
+   does the address bar look like afterwards?               
+   - the address bar changes and adds a ? after the html and with an id of fairy falls. 
+   export function detailUrl(id) {
+      return trail.html?${new URLSearchParams({ id })};
+    }
+
 3. In `trails.js`, trace `?id=fairy-falls` through `resolveTrail`. List each
    function it passes through and what each returns.
+
+   an export function of the detailUrl(id) {
+      return trail.html?${new URLSearchParams({ id })};
+    }
+  then an 
+    export function parseTrailId(search) {
+    }
+  then an 
+
+    export function findTrail(trails, id) {
+      return trails.find((trail) => trail.id === id) ?? null;
+    }
+
+
 4. There are four outcomes: found, missing, invalid, unknown. Write one URL
    that triggers each, and say where in the code the decision is made.
+  
+
 5. Why does `parseTrailId` check the shape before `findTrail` runs?
 6. In `disclosure.js`, name every place `open` changes. Where do `hidden` and
    `aria-expanded` get set, and why only there?

@@ -19,8 +19,8 @@ Competency passed: [ ]  Date: ______________  Instructor/TA: ___________________
 | --- | --- | --- | --- |
 | [x] | Choose HTML elements according to meaning and structure. |  |  |
 | [x] | Create headings, landmarks, navigation, forms, labels, buttons, and meaningful links. |  |  |
-| [ ] | Support keyboard navigation, visible focus, readable text, useful alt text, and appropriate names for interactive controls. |  |  |
-| [ ] | Check a page with keyboard-only navigation, browser tools, and an accessibility checker. |  |  |
+| [x] | Support keyboard navigation, visible focus, readable text, useful alt text, and appropriate names for interactive controls. |  |  |
+| [x] | Check a page with keyboard-only navigation, browser tools, and an accessibility checker. |  |  |
 
 ## 2. Responsive CSS and inclusive visual design
 
@@ -30,10 +30,10 @@ Competency passed: [ ]  Date: ______________  Instructor/TA: ___________________
 | --- | --- | --- | --- |
 | [x] | Build a mobile-first layout with Flexbox, Grid, media queries, and relative sizing. |  |  |
 | [x] | Create a visual system with custom properties, spacing, typography, and color choices. |  |  |
-| [ ] | Handle long text, different images, narrow screens, and wider screens without breaking the layout. |  |  |
+| [x] | Handle long text, different images, narrow screens, and wider screens without breaking the layout. |  |  |
 | [x] | Organize shared and component-specific styles so they are easy to find and change. |  |  |
-| [x] | Check color contrast, readable text sizing, and spacing that supports comprehension and comfortable interaction. |  |  |
-| [ ] | Test reflow, zoom, and text enlargement. |  |  |
+| [ ] | Check color contrast, readable text sizing, and spacing that supports comprehension and comfortable interaction. |  |  |
+| [x] | Test reflow, zoom, and text enlargement. |  |  |
 | [ ] | Consider motion, animation, and touch-target size as part of an inclusive interface. |  |  |
 
 ## 3. JavaScript, the DOM, and events
@@ -42,10 +42,11 @@ Competency passed: [ ]  Date: ______________  Instructor/TA: ___________________
 
 | Peer reviewed | Slice | Peer name and date | Evidence note or link |
 | --- | --- | --- | --- |
-| [ ] | Use variables, functions, arrays, objects, conditionals, and loops to represent and process information. |  |  |
-| [ ] | Select DOM elements and update content, attributes, classes, and generated markup. |  |  |
-| [ ] | Respond to click, input, submit, and change events as appropriate. |  |  |
+| [x] | Use variables, functions, arrays, objects, conditionals, and loops to represent and process information. |  |  |
+| [x] | Select DOM elements and update content, attributes, classes, and generated markup. |  |  |
+| [x] | Respond to click, input, submit, and change events as appropriate. |  |  |
 | [ ] | Separate data, rendering, and event-handling responsibilities into understandable functions. |  |  |
+- remove duplicatio for my java script code 
 
 ## 4. Data-driven rendering and modules
 
@@ -53,8 +54,8 @@ Competency passed: [ ]  Date: ______________  Instructor/TA: ___________________
 
 | Peer reviewed | Slice | Peer name and date | Evidence note or link |
 | --- | --- | --- | --- |
-| [ ] | Represent repeated content as arrays or objects rather than duplicating markup. |  |  |
-| [ ] | Create reusable rendering functions or templates for repeated UI patterns. |  |  |
+| [x] | Represent repeated content as arrays or objects rather than duplicating markup. |  |  |
+| [x] | Create reusable rendering functions or templates for repeated UI patterns. |  |  |
 | [ ] | Split code into modules with clear responsibilities and imports/exports. |  |  |
 | [ ] | Keep data, application logic, and presentation concerns reasonably separated. |  |  |
 

@@ -1,91 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>First Learning Contract - Package Design Gallery</title>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="description" content="Explore the colors, typography, shapes, and layouts that make memorable packaging and brand logos work.">
+    <meta name="theme-color" content="#e6dbdb">
+    <title>Package Designs | Explore Brand Logo Design</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
-<body>
+<body class="landing-page">
     <header>
-        <nav>
-            <a href="#" class="logo">PACKAGE DESIGNS</a>
-
-            <nav class="nav-bar">
-                <!-- <li><a href="#gallery">Gallery</a></li> -->
-                <li><a href="#about">About</a></li>
-                <li><a href="#about">Comparing <Label>Logos</Label></a></li>
-            </nav>
+        <nav aria-label="Primary navigation">
+            <a href="index.html" class="logo">PACKAGE DESIGNS</a>
+            <div>
+                <ul class="nav-bar">
+                    <li><a href="#brand-types">Explore categories</a></li>
+                    <li><a href="gallery.html?category=all">Browse the logo gallery</a></li>
+                </ul>
+            </div>
         </nav>
 
         <div class="hero">
             <p class="smallh1">PACKAGE DESIGN ARCHIVE</p>
-
-            <h1>Designs<br>
-                <span>Explained.</span>
-            </h1>
-
-            <p class="hero-paragraph">
-                Explore packaging from everyday products and discover
-                how color, typography, shape, and layout make designs work.
-            </p>
-
-            <a href="#gallery" class="hero-button">Explore Now ↓</a>
+            <h1>Designs<br><span>Explained.</span></h1>
+            <p class="hero-paragraph">Explore packaging from everyday products and discover how color, typography, shape, and layout make designs work.</p>
+            <a href="#brand-types" class="hero-button">Explore Now ↓</a>
         </div>
     </header>
 
     <main>
-
-        <!-- Main gallery -->
-        <section id="gallery" class="main-section">
-
-            <div class="section-heading">
-                <div class="gallery-controls">
-                    <label for="category-filter">Filter:</label>
-
-                    <select id="category-filter">
-                        <option value="all">All Designs</option>
-                    </select>
-                </div>
-                <div>
-                    <p class="eyebrow">THE COLLECTION</p>
-                    <h2>Packaging worth looking at.</h2>
-                </div>
+        <section id="brand-types" class="selection-section">
+            <div class="selection-heading">
+                <p class="eyebrow">THE COLLECTION</p>
+                <h2>Packaging worth looking at.</h2>
             </div>
 
-
-
-            <!-- photo cards -->
-            <div>
-                <div class="main-grid" id="card-container">
-
+            <div class="category-picker">
+                <h2 class="category-question">Choose a packaging category</h2>
+                <div class="category-options" aria-label="Packaging categories">
+                    <a class="category-choice" href="gallery.html?category=clothing">Clothing</a>
+                    <a class="category-choice" href="gallery.html?category=beauty">Beauty</a>
+                    <a class="category-choice" href="gallery.html?category=snacks">Snacks</a>
+                    <a class="category-choice" href="gallery.html?category=company">Company</a>
+                    <a class="category-choice" href="gallery.html?category=cars">Cars</a>
+                    <a class="category-choice" href="gallery.html?category=other">Other</a>
+                    <a class="category-choice" href="gallery.html?category=technology">Technology</a>
+                    <a class="category-choice" href="gallery.html?category=music">Music</a>
+                    <a class="category-choice" href="gallery.html?category=drinks">Drinks</a>
                 </div>
             </div>
         </section>
-
-
-        <!-- about -->
-        <section id="about" class="about-section">
-            <p class="eyebrow">WHY IS PACKAGING IS SO IMPORTANT?</p>
-
-            <h2>
-                The design behind<br>
-                the product.
-            </h2>
-        </section>
-
     </main>
 
-
     <footer>
-        <a href="#" class="logo">PACKAGE DESIGNS.</a>
+        <a href="index.html" class="logo">PACKAGE DESIGNS.</a>
         <p>Made by Taylor Sanders.</p>
     </footer>
 
-
+    <script src="data.js"></script>
+    <script src="state.js"></script>
     <script src="script.js"></script>
-
 </body>
 </html>
